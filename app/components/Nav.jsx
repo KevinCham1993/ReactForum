@@ -32,10 +32,10 @@ var Nav = () => {
             <button type="button" className="button">Search</button>
           </li>
           <li>
-            <button className="btn btn-info log">Log In</button>
+            <button type="button" className="btn btn-info log">Log In</button>
           </li>
           <li>
-            <button className="btn btn-danger log">Log out </button>
+            <button type="button" className="btn btn-danger log">Log Out </button>
           </li>
         </ul>
       </div>
