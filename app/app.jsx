@@ -4,7 +4,9 @@ var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 var Main = require('Main');
 var Weather = require('Weather');
 var About = require('About');
-var Examples = require('Examples');
+var Categories = require('Categories');
+var Colleges = require('Colleges');
+var Community = require('Community');
 
 // Load foundation
 require('style!css!foundation-sites/dist/foundation.min.css')
@@ -14,7 +16,9 @@ ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
       <Route path="about" component={About}/>
-      <Route path="examples" component={Examples}/>
+      <Route path="categories" component={Categories}/>
+      <Route path="colleges" component={Colleges}/>
+      <Route path="community" component={Community}/>
       <IndexRoute component={Weather}/>
     </Route>
   </Router>,
