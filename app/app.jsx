@@ -7,6 +7,8 @@ var About = require('About');
 var Categories = require('Categories');
 var Colleges = require('Colleges');
 var Community = require('Community');
+var LoginPage = require('LoginPage');
+var LoginForm = require('LoginForm');
 
 // Load foundation
 require('style!css!foundation-sites/dist/foundation.min.css')
@@ -19,6 +21,8 @@ ReactDOM.render(
       <Route path="categories" component={Categories}/>
       <Route path="colleges" component={Colleges}/>
       <Route path="community" component={Community}/>
+      <Route path="loginpage" component={LoginPage}/>
+      <Route path="loginform" component={LoginForm}/>
       <IndexRoute component={Weather}/>
     </Route>
   </Router>,

@@ -32,10 +32,10 @@ var Nav = () => {
             <button type="button" className="button">Search</button>
           </li>
           <li>
-            <button type="button" className="btn btn-info log">Log In</button>
+            <Link to="/loginpage">Log In</Link>
           </li>
           <li>
-            <button type="button" className="btn btn-danger log">Log Out </button>
+            <Link to="/">Sign Up</Link>
           </li>
         </ul>
       </div>
