@@ -10,7 +10,7 @@ var Nav = () => {
             <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>React Forum Demo</IndexLink>
           </li>
           <li>
-            <IndexLink to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</IndexLink>
+            <Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
           </li>
           <li>
             <Link to="/categories" activeClassName="active"  activeStyle={{fontWeight: 'bold'}}>Categories</Link>

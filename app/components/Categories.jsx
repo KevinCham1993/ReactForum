@@ -1,7 +1,7 @@
 var React = require('react');
-var {Link} = require('react-router');
+var {Link, IndexLink} = require('react-router');
 
-var Examples = (props) => {
+var Categories = (props) => {
   return (
     <div>
       <h1 className="text-center">Categories:</h1>
@@ -18,4 +18,4 @@ var Examples = (props) => {
   )
 };
 
-module.exports = Examples;
+module.exports = Categories;
