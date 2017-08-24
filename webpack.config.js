@@ -21,20 +21,24 @@ module.exports = {
   },
   resolve: {
     root: __dirname,
+    modulesDirectories: [
+      'node_modules',
+      './app/components'
+    ],
     alias: {
-      Main: 'app/components/Main.jsx',
-      Nav: 'app/components/Nav.jsx',
-      LoginPage: 'app/components/LoginPage.jsx',
-      LoginForm: 'app/components/LoginForm.jsx',
-      Weather: 'app/components/Weather.jsx',
-      WeatherForm: 'app/components/WeatherForm.jsx',
-      WeatherMessage: 'app/components/WeatherMessage.jsx',
-      About: 'app/components/About.jsx',
-      Categories: 'app/components/Categories.jsx',
-      Colleges: 'app/components/Colleges.jsx',
-      Community: 'app/components/Community.jsx',
+    //   Main: 'app/components/Main.jsx',
+    //   Nav: 'app/components/Nav.jsx',
+    //   LoginPage: 'app/components/LoginPage.jsx',
+    //   LoginForm: 'app/components/LoginForm.jsx',
+    //   Weather: 'app/components/Weather.jsx',
+    //   WeatherForm: 'app/components/WeatherForm.jsx',
+    //   WeatherMessage: 'app/components/WeatherMessage.jsx',
+    //   About: 'app/components/About.jsx',
+    //   Categories: 'app/components/Categories.jsx',
+    //   Colleges: 'app/components/Colleges.jsx',
+    //   Community: 'app/components/Community.jsx',
       openWeatherMap: 'app/api/openWeatherMap.jsx'
-
+    //
     },
     extensions: ['', '.js', '.jsx']
   },

@@ -17,12 +17,32 @@ var Community = (props) => {
           <tbody>
             <tr>
               <td>
-                  <h3>Post1</h3>
-                  <p>Post content</p>
-                  <p>user</p>
+                <div class="media-object">
+                  <div class="media-object-section">
+                    <div class="thumbnail">
+                      <img src= "assets/img/media-object/avatar-1.jpg"/>
+                      <p>Image</p>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <h3>Post1</h3>
+                <p>Post content</p>
+                <p>user</p>
               </td>
             </tr>
             <tr>
+              <td>
+                <div class="media-object">
+                  <div class="media-object-section">
+                    <div class="thumbnail">
+                      <img src= "assets/img/media-object/avatar-1.jpg"/>
+                      <p>Image</p>
+                    </div>
+                  </div>
+                </div>
+              </td>
               <td>
                   <h3>Post2</h3>
                   <p>Post content</p>
@@ -31,12 +51,32 @@ var Community = (props) => {
             </tr>
             <tr>
               <td>
+                <div class="media-object">
+                  <div class="media-object-section">
+                    <div class="thumbnail">
+                      <img src= "assets/img/media-object/avatar-1.jpg"/>
+                      <p>Image</p>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
                   <h3>Post3</h3>
                   <p>Post content</p>
                   <p>user</p>
               </td>
             </tr>
             <tr>
+              <td>
+                <div class="media-object">
+                  <div class="media-object-section">
+                    <div class="thumbnail">
+                      <img src= "assets/img/media-object/avatar-1.jpg"/>
+                      <p>Image</p>
+                    </div>
+                  </div>
+                </div>
+              </td>
               <td>
                   <h3>Post4</h3>
                   <p>Post content</p>
