@@ -1,5 +1,6 @@
 var React = require('react');
 var PostList = require('PostList');
+var {Link, IndexLink} = require('react-router');
 
 var Community = React.createClass({
   getInitialState: function () {
@@ -27,6 +28,7 @@ var Community = React.createClass({
     return (
       <div>
         <PostList posts={posts}/>
+        <Link to="/newpost">New Post</Link>
       </div>
     )
   }
