@@ -35,7 +35,7 @@ var Nav = () => {
             <Link to="/loginpage">Log In</Link>
           </li>
           <li>
-              |  
+              |
           </li>
           <li>
             <Link to="/">Sign Up</Link>

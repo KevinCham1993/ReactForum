@@ -38,7 +38,7 @@ module.exports = {
     //   Colleges: 'app/components/Colleges.jsx',
     //   Community: 'app/components/Community.jsx',
       openWeatherMap: 'app/api/openWeatherMap.jsx',
-      applicationStyle: 'app/styles/app.css'
+      applicationStyle: 'app/styles/app.scss'
     //
     },
     extensions: ['', '.js', '.jsx']
