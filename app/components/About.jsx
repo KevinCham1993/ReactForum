@@ -3,7 +3,7 @@ var {Link} = require('react-router');
 
 var About = (props) => {
   return (
-    <h3>About the Forum</h3>
+    <h1 className="text-center page-title">About the Forum</h1>
   )
 };
 

@@ -26,13 +26,16 @@ var Nav = () => {
       <div className="top-bar-right">
         <ul className="menu">
           <li>
-            <input type="search" placeholder="Search"/>
+            <input type="search" placeholder="Search Course, Category or College"/>
           </li>
           <li>
             <button type="button" className="button">Search</button>
           </li>
           <li>
             <Link to="/loginpage">Log In</Link>
+          </li>
+          <li>
+              |  
           </li>
           <li>
             <Link to="/">Sign Up</Link>

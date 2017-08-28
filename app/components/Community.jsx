@@ -27,6 +27,9 @@ var Community = React.createClass({
 
     return (
       <div>
+        <h1 className="text-center page-title">
+          Community
+        </h1>
         <PostList posts={posts}/>
         <Link to="/newpost">New Post</Link>
       </div>

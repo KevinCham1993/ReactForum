@@ -4,7 +4,7 @@ var {Link, IndexLink} = require('react-router');
 var Colleges = (props) => {
   return (
     <div>
-      <h1 className="text-center">Colleges:</h1>
+      <h1 className="text-center page-title">Colleges:</h1>
       <p>Courses from different universities are here!</p>
       <ol>
         <li>

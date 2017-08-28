@@ -15,6 +15,9 @@ var NewPost = require('NewPost')
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
+// App css
+require('style!css!applicationStyle')
+
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
@@ -25,7 +28,7 @@ ReactDOM.render(
       <Route path="loginpage" component={LoginPage}/>
       <Route path="post" component={Post}/>
       <Route path="newpost" component={NewPost}/>
-      <IndexRoute component={Weather}/>
+      {/* <IndexRoute component={Weather}/> */}
     </Route>
   </Router>,
   document.getElementById('app')
